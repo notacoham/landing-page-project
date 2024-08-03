@@ -48,6 +48,7 @@ a {
     justify-content: center;
     background-color: #1f2937;
     align-items: center;
+    height: 700px;
 }
 
 .hero-content {
@@ -83,3 +84,49 @@ a {
     width: 500px;
     margin-left: 0;
 }
+
+/* Info */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+}
+
+.info-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img {
+    height: 150px;
+    width: 150px;
+    border: 5px groove #3882f6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.info-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Quote */
