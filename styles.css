@@ -44,3 +44,43 @@ a {
 
 /* Hero */
 
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-right: 0;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+    align-self: flex-start;
+}
+
+.hero-para {
+    font-size: 18px;
+    align-self: flex-start;
+    color: #e5e7eb;
+}
+
+.sign-up-btn {
+    align-self: flex-start;
+    margin: 0;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.hero-img {
+    width: 500px;
+    margin-left: 0;
+}
