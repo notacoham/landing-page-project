@@ -130,3 +130,27 @@ a {
 }
 
 /* Quote */
+
+.quote-container {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 150px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.quote-attribution {
+    align-self: flex-end;
+}
+
